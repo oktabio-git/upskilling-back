@@ -14,7 +14,7 @@ public class Ordenamiento {
 		}
 		
 		for (int i = 0; i < numeros.length; i++) {
-			for (int j = 0; j < (numeros.length - i); j++) {
+			for (int j = 1; j < (numeros.length - i); j++) {
 				if (numeros[j - 1] > numeros[j]) {
 					temp = numeros[j - 1];
 					numeros[j - 1] = numeros[j];
